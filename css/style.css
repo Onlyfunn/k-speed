@@ -17,7 +17,6 @@ body {
   line-height: 120%;
   color: #fff;
 }
- 
 
 .wrapper {
   display: flex;
@@ -470,7 +469,6 @@ div[class*=__container] {
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 100%;
-  min-width: 100%;
 }
 @media (max-width: 1360px) {
   .intro__man {
@@ -484,6 +482,7 @@ div[class*=__container] {
 }
 @media (max-width: 1070px) {
   .intro__man {
+    min-width: 100%;
     position: relative;
     top: 15vh;
     left: 50%;
